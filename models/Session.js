@@ -8,7 +8,7 @@ const sessionSchema = new mongoose.Schema({
     },
     type: {
         type: String,
-        enum: ["interview", "presentation", "meeting"],
+        enum: ["interview", "presentation", "meeting", 'interviewer'],
         required: true,
     },
     title: {
